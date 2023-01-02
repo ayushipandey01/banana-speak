@@ -1,12 +1,27 @@
-// console.log("Hello World !");
+// // console.log("Hello World !");
 
-// alert("this script works !!!")
+// // alert("this script works !!!")
 
-//input
-var username = prompt("What is your name ?");
+// //input
+// var username = prompt("What is your name ?");
 
-//processing
-var welcomeMeassage = "this script works ! " + username ;
+// //processing
+// var welcomeMeassage = "this script works ! " + username ;
 
-//output
-alert(welcomeMeassage);
+// //output
+// alert(welcomeMeassage);
+
+var btnTranslate = document.querySelector("#btn-translate");
+
+// console.log(btnTranslate);
+
+btnTranslate.addEventListener("click" , function clickEventHandler() {
+    console.log("clicked!!!")
+    console.log("input " , txtInput.value)
+
+})
+
+var txtInput = document.querySelector("#txt-input");
+
+console.log(txtInput)
+
