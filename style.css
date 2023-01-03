@@ -20,8 +20,13 @@ h1 {
 }
 
 #btn-translate {
-    color: #6D28D9;
-    position: relative;
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    width: 13rem;
+    margin: 1rem;
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 15px;
 }
 
 .navigationcontainer {
