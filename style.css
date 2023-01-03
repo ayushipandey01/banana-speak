@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Kaushan+Script&family=Montserrat:wght@400;700&family=Seymour+One&family=Shadows+Into+Light&display=swap');
+
+:root {
+    /* --primary-color: #8B5CF6;  */
+    --primary-color:#FBBF24; 
+    --grey-color: #64748B; 
+    --offwhite-section: #E5E5E5; 
+}
+
+body{
+    font-family: 'Kaushan Script', cursive;
+    margin: 0px;
+    /* background-color: #FB923C; */
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+
+}
+
+#btn-translate {
+    color: #6D28D9;
+    position: relative;
+}
+
+.navigationcontainer {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem; 
+    /* border-bottom-left-radius: 1rem; */
+    text-align: center;
+    height: 4vh;
+    font-size: 20px;
+}
+
+/* .section {
+    max-width: 600px;
+    margin: auto;
+} */
+
+.footer {
+    background-color: var(--primary-color);
+    /* padding: 2rem 1rem; */
+    text-align: center;
+    color: black;
+    height: 8vh;
+    /* border-top-right-radius: 1rem; */
+    /* font-weight: bold; */
+    /* font-size: 20px; */
+}
+
+.footer-header {
+        background-color: var(--primary-color);
+        padding: 1rem 1rem;
+        text-align: center;
+        color: black;
+        /* border-top-right-radius: 1rem; */
+        /* font-weight: bold; */
+        font-size: 20px;
+}
+
